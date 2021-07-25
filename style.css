@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,900;1,600&display=swap');
+
+:root{
+    --dark-pink:  #ff495f;
+    --light-pink: #fdf2f6;
+    --light-gray: #f1f1f1;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 100vw;
+    height: 100vh;
+    font-size: 62.5%;
+}
+
+.logo{
+    width: 20rem;
+    height: auto;
+}
+
+.section{
+    max-width: 100%;
+    height: 100%;  
+    background-color: var(--light-pink);
+    display:flex;
+    align-items: center;
+    justify-content:center;
+}
+
+.buttons-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contained-buttons{
+    font: 600 1.2rem 'Montserrat';
+    color: var(--light-pink);
+    background-color: var(--dark-pink);
+    text-decoration: none;   
+    padding: 0.5rem 2rem;
+    border-radius: 0.5rem;
+    border: none;
+    margin: 1rem;
+    cursor: pointer;   
+}
+
+.contained-buttons:hover{
+    opacity: 70%;
+}
+
+h1{
+    text-align: center; 
+    font: 700 2rem 'Montserrat';
+    color: var(--dark-pink);
+}
+
+img{
+    width: 20rem;
+    height: auto;
+}
+
+a{
+    text-decoration: none;
+    color: var(--dark-pink);
+}
+
+footer{
+    text-align: center;
+    text-decoration: none;
+    position: absolute;
+    margin-bottom: 1rem;
+    bottom: 0;
+    font: 400 1rem 'Montserrat';
+    color: var(--dark-pink);  
+}
+
+/* -------MODAL---------*/
+.modal#modal-clientes, .modal#modal-produtos{
+    max-width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1; 
+    justify-content: center;
+    align-items: center;
+    display: none;
+    animation: modal 0.3s;      
+}
+
+@keyframes modal{
+    from{
+        opacity: 0;
+        transform: translate3d(0, -6rem, 0);
+    }
+    to {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+.form-wraper{
+    background-color: var(--light-gray);
+    width: 50%;   
+    padding: 4rem; 
+    border-radius: 0.5rem;
+    border: 0.1rem solid white;
+}
+
+.form-wraper ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.form-wraper ul input{
+    width: 15rem;
+    height: 2rem;
+    margin: 1rem;
+    border-radius: 0.5rem;
+    padding-left: 0.5rem;
+    border: 0.1rem solid white;
+    outline: none;   
+    background-color: var(--light-gray);
+}
+
+.form-wraper ul input#descricao{
+    max-width: 39rem;
+    min-width: 10rem;
+    height: 8rem;
+}
+
+::-webkit-input-placeholder{
+    font: 400 1rem 'Montserrat';
+}
