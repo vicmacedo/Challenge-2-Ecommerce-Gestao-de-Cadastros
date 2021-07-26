@@ -6,8 +6,10 @@ O segundo desafio do Bootcamp Hiring Coders by VTEX foi desenvolver um sistema d
 
 HTML * CSS * Javascript
 
-![index](C:\Users\vitor\Desktop\Front-End\Gama Academy\Desafio #2 - Gestão de Cadastros\assets\index.PNG)
 
-![modal-clientes](C:\Users\vitor\Desktop\Front-End\Gama Academy\Desafio #2 - Gestão de Cadastros\assets\modal-clientes.PNG)
 
-![modal-produtos](C:\Users\vitor\Desktop\Front-End\Gama Academy\Desafio #2 - Gestão de Cadastros\assets\modal-produtos.PNG)
+[Home] https://i.imgur.com/UryuXsj.png
+
+[Formulário de cadastro de clientes] https://i.imgur.com/7xcK0IG.png
+
+[Formulário de cadastro de produtos ] https://i.imgur.com/vAQIeEv.png
