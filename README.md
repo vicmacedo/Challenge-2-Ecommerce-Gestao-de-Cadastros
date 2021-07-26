@@ -8,8 +8,7 @@ HTML * CSS * Javascript
 
 
 
-[Home] https://imgur.com/UryuXsj
+![Home](https://i.imgur.com/UryuXsj.png)
 
-[Formulário de cadastro de clientes] https://imgur.com/7xcK0IG
-
-[Formulário de cadastro de produtos ] https://imgur.com/vAQIeEv
+![Formulário de cadastro de clientes](https://i.imgur.com/7xcK0IG.png)
+![Formulário de cadastro de produtos ](https://i.imgur.com/vAQIeEv.png)
